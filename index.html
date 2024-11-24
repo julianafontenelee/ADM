@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Administração - Nutricionista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <nav class="sidebar">
+            <h2>Painel Nutricionista</h2>
+            <ul>
+                
+                <li><a href="#">Pacientes</a></li>
+                <li><a href="#">Planos Alimentares</a></li>
+                <li><a href="#">Relatórios</a></li>
+                <li><a href="#">Configurações</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+
+        
+        <main class="main-content">
+            <header>
+                <h1>Bem-vindo, Nutricionista!</h1>
+            </header>
+
+            <img src="nutricionista-online.webp" alt="Imagem Nutricionista" class="centralizada">
+
+            <section class="patients-table">
+                <h2>Pacientes Recentes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Email</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mariana Costa</td>
+                            <td>mariana@exemplo.com</td>
+                            <td>Ativo</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Lucas Pereira</td>
+                            <td>lucas@exemplo.com</td>
+                            <td>Ativo</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ana Silva</td>
+                            <td>ana@exemplo.com</td>
+                            <td>Inativo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="meal-plans">
+                <h2>Planos Alimentares Recentes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome do Paciente</th>
+                            <th>Plano</th>
+                            <th>Data de Início</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mariana Costa</td>
+                            <td>Plano 1 - Emagrecimento</td>
+                            <td>12/11/2024</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Lucas Pereira</td>
+                            <td>Plano 2 - Hipertrofia</td>
+                            <td>15/11/2024</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ana Silva</td>
+                            <td>Plano 3 - Dieta Balanceada</td>
+                            <td>18/11/2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
